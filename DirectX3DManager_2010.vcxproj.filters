@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{01651549-f468-495c-a7f4-aac6028484b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Core\Main">
+      <UniqueIdentifier>{f70e1c79-9f42-4859-897a-3d1f9bde390d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager">
+      <UniqueIdentifier>{1d2e1853-a297-448b-b04a-b88b604d3ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager\Load">
+      <UniqueIdentifier>{41c847f9-f631-4365-a015-7034f2ac31c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager\Render">
+      <UniqueIdentifier>{8fcacd78-071e-4a23-a0b5-869d5148eb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager\Scene">
+      <UniqueIdentifier>{75efcc7d-d129-406b-a3ff-4ba9a29c24d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager\Camera">
+      <UniqueIdentifier>{cf0a32d8-c329-41d9-8080-9206af88092e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager\Input">
+      <UniqueIdentifier>{a6c7f21c-ecc6-4acd-a71c-358e09736cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Manager\Object">
+      <UniqueIdentifier>{c0092c9e-7d87-46f5-8cc1-bc29e26b51b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Component">
+      <UniqueIdentifier>{10cadecd-fe05-47ba-bd34-e4b6f77772f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Component\Render">
+      <UniqueIdentifier>{c3fc638d-e055-4ed4-8e15-4a7b3adaf52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Component\Tower">
+      <UniqueIdentifier>{008aae06-1721-4b02-8b20-50bbb380230f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8933476d-3561-42fa-ad38-6b8677e839e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{34cebe6b-d3d6-4e86-b2be-f8bbfa92e5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\ExTower">
+      <UniqueIdentifier>{d431172a-38d7-4da4-ab33-b8d04ec53c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{a740f424-9313-4a61-ac71-613a32f4a518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Core\Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <None Include="OutLineShader.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ToonShader.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX3DManager.cpp" />
+    <ClCompile Include="Main.cpp">
+      <Filter>Core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader.cpp">
+      <Filter>Core\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadManager.cpp">
+      <Filter>Core\Manager\Load</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Core\Manager\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Core\Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Core\Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Core\Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Core\Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Core\Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Core\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Core\Component\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Core\Component\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="ExTower.cpp">
+      <Filter>Game\Object\ExTower</Filter>
+    </ClCompile>
+    <ClCompile Include="ExScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Core\Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="DirectX3DManager.rc">
+      <Filter>Core\Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="Main.h">
+      <Filter>Core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="MeshLoader.h">
+      <Filter>Core\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="LoadManager.h">
+      <Filter>Core\Manager\Load</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Core\Manager\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Core\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core\Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Core\Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Core\Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Core\Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Core\Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Core\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Core\Component\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Core\Component\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="ExTower.h">
+      <Filter>Game\Object\ExTower</Filter>
+    </ClInclude>
+    <ClInclude Include="ExScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
