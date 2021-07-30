@@ -11,11 +11,14 @@ Main::~Main()
 
 void Main::LoadResource(IDirect3DDevice9* device)
 {
-	LOADER->AddMesh(device,"Ex",L"Resource\\(0.obj");
+	LOADER->AddMesh(device,"Ex",L"Resource\\aszx.obj");
+	LOADER->AddMesh(device, "Block", L"Resource\\Block.obj");
+
 }
 
 void Main::Init()
 {
+
 	SCENE->AddScene("Ex", new ExScene);
 	SCENE->ChangeScene("Ex");
 	CAMERA->ResetCamPos();
@@ -23,7 +26,7 @@ void Main::Init()
 
 void Main::Update()
 {
-	CAMERA->SetCamPos(Vec3(0,0,0),Vec3(0,0,-10),Vec3(0,1,0));
+	CAMERA->SetCamPos(Vec3(0,6,0),Vec3(0,0,-10),Vec3(0,1,0));
 	SCENE->Update();
 	OBJ->Update();
 	INPUT->Update();

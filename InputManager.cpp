@@ -56,5 +56,6 @@ bool InputManager::Raycast(Mesh* mesh, Vec3 Pos, Vec3 Size, Vec3 Rot, Vec3* pHit
 	float Dist;
 	D3DXIntersect(mesh->mesh, &LocalPos, &LocalDir, &isHit, 0, 0, 0, &Dist, 0, 0);
 	*pHitPos = CAMERA->Pos + Dir * Dist;
+	HitPos = *pHitPos;
 	return isHit;
 }

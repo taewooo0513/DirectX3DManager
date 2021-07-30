@@ -3,6 +3,8 @@
 class ExTower : public Tower
 {
 public:
+	bool v = false;
+public:
 	ExTower();
 	~ExTower();
 public:

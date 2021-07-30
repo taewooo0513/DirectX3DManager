@@ -8,6 +8,7 @@ public:
 public:
 	D3DVIEWPORT9 viewPort;
 	POINT pt;
+	Vec3 HitPos;
 	Vec3 Dir;
 	Vec3 RotateVec3(Vec3 _Vec, D3DXQUATERNION _Rot)
 	{

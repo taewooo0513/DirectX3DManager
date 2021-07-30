@@ -21,7 +21,7 @@ void RenderComponent::Update()
 
 void RenderComponent::Render()
 {
-//	RENDER->Render3D(mesh,obj->Pos,obj->Rot,obj->Size);
+	RENDER->Render3D(mesh,obj->Pos,obj->Rot,obj->Size);
 	//cout << "gd";
 }
 

@@ -16,10 +16,6 @@ struct VS_OUTPUT
 VS_OUTPUT vs_main(VS_INPUT input)
 {
 	VS_OUTPUT output = (VS_OUTPUT)0;
-	//input.pos = mul(float3(input.pos) + input.normal * 10, matW);
-	//output.pos = mul(input.pos, matPV);
-	//output.color = float4(0,1,0,1);
-	//return output;
 
 	output.pos = mul(float4(input.pos + input.normal * 0.5, 1), matW);
 

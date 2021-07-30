@@ -173,6 +173,7 @@
     <ClCompile Include="ExScene.cpp">
       <Filter>Game\Scene</Filter>
     </ClCompile>
+    <ClCompile Include="Block.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">
@@ -228,5 +229,6 @@
     <ClInclude Include="ExScene.h">
       <Filter>Game\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Block.h" />
   </ItemGroup>
 </Project>

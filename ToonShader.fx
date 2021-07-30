@@ -33,7 +33,7 @@ VS_OUTPUT vs_Main(VS_INPUT input)
 
 	float3 NormalWorldSpace = normalize(mul(input.Normal, (float3x3)matW));
 	float3 TotalLightColor = LightColor * max(0, dot(NormalWorldSpace, LightDir));
-	output.Color.rgb = TotalLightColor +  float4(0.2, 0.2, 0.2, 1);
+	output.Color.rgb = TotalLightColor +  float4(0.35, 0.35, 0.35, 1);
 	output.Color.a = 1;
 
 	return output;
@@ -48,7 +48,6 @@ PS_OUTPUT ps_Main(VS_OUTPUT input)
 {
 	PS_OUTPUT output;
 	output.Color = tex2D(MainTex, input.uv) * input.Color;
-	output.Color = (ceil(output.Color * 5) / 5.f);
 	return output;
 }
 
